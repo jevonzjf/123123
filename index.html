@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片黑白转换器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>图片黑白转换器</h1>
+        <div class="upload-container">
+            <input type="file" id="imageInput" accept="image/*">
+            <label for="imageInput" class="upload-btn">选择图片</label>
+        </div>
+        <div class="image-container">
+            <div class="original">
+                <h2>原始图片</h2>
+                <img id="originalImage" src="" alt="原始图片">
+            </div>
+            <div class="converted">
+                <h2>黑白图片</h2>
+                <canvas id="convertedImage"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
